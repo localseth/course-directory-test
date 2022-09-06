@@ -15,7 +15,7 @@ import NotFound from './NotFound';
 import Featured from './Featured';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/course-directory-test">
     <div className="container">
       <Header />
       
